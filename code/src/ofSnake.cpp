@@ -16,20 +16,20 @@ ofSnake::~ofSnake() {
 
 void ofSnake::updateSnake() {
 
-    myPos.x = myPos.x + xSpeed * cellSize;
-    myPos.y = myPos.y + ySpeed * cellSize;
+    myPos.x = myPos.x + xSpeed * cell_size;
+    myPos.y = myPos.y + ySpeed * cell_size;
 
     //min-max range maped to canvas
-    myPos.x = ofClamp(myPos.x, 0, ofGetWidth() - cellSize);
-    myPos.y = ofClamp(myPos.y, 0, ofGetHeight() - cellSize);
+    myPos.x = ofClamp(myPos.x, 0, ofGetWidth() - cell_size);
+    myPos.y = ofClamp(myPos.y, 0, ofGetHeight() - cell_size);
 
 }
 
 
 void ofSnake::drawSnake() {
 
-    ofSetColor(colorIO);
-    ofDrawRectangle(myPos.x, myPos.y, cellSize, cellSize);
+    ofSetColor(color);
+    ofDrawRectangle(myPos.x, myPos.y, cell_size, cell_size);
     
 }
 
@@ -44,7 +44,7 @@ void ofSnake::setDir(int x, int y) {
 
 bool ofSnake::eat(ofVec2f foodPos) {
 
-    if (myPos.distance(foodPos) < cellSize) {
+    if (myPos.distance(foodPos) < cell_size) {
         
         std::cout << " eat !" << std::endl;
 
