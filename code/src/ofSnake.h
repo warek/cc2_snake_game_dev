@@ -13,9 +13,9 @@ public:
     float xSpeed;
     float ySpeed;
     
-    int scl = 50;
+    int cellSize = 50;
 
-    ofColor color;
+    ofColor colorIO;
 
     void updateSnake();
     void drawSnake();
