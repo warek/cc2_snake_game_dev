@@ -38,6 +38,8 @@ void ofSnake::setDir(int x, int y) {
     
     xSpeed = x;
     ySpeed = y;
+
+    
 }
 
 
