@@ -24,6 +24,4 @@ public:
 
     ofVec2f myPos{ 0,0 };
 
-    
-    
 };
