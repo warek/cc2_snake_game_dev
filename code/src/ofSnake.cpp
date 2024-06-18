@@ -7,7 +7,7 @@ ofSnake::ofSnake() {
     xSpeed = 0;
     ySpeed = 0;
 
-    color.set(255);
+    colorIO.set(255);
 }
 
 ofSnake::~ofSnake() {
