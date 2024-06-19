@@ -10,7 +10,7 @@ public:
     ofFood();
     ~ofFood();
 
-    int cellSizeFood = 50;
+    int scl = 50;
     
     ofColor color;
     ofVec2f myPos{};

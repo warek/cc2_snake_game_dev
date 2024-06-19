@@ -28,7 +28,7 @@ void ofSnake::updateSnake() {
 
 void ofSnake::drawSnake() {
 
-    ofSetColor(color);
+    ofSetColor(colorIO);
     ofDrawRectangle(myPos.x, myPos.y, cell_size, cell_size);
     
 }
