@@ -13,7 +13,7 @@ public:
     float xSpeed;
     float ySpeed;
     
-    int cell_size = 50;
+    int cellSize = 50;
 
     ofColor colorIO;
 
