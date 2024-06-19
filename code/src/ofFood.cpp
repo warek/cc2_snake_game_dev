@@ -2,6 +2,7 @@
 
 
 ofFood::ofFood() {
+    //mareks 1st push
     
     color.set(250, 0, 50);
     
