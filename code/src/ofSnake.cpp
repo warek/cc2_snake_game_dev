@@ -7,6 +7,8 @@ ofSnake::ofSnake() {
     xSpeed = 0;
     ySpeed = 0;
 
+    int stage = 0;
+
     colorIO.set(255);
 }
 
