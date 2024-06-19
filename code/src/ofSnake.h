@@ -11,7 +11,9 @@ public:
     ~ofSnake();
 
     int foo = 6;
+
     
+
     float xSpeed;
     float ySpeed;
     
