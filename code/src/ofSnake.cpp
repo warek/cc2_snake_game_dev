@@ -7,10 +7,14 @@ ofSnake::ofSnake() {
     xSpeed = 0;
     ySpeed = 0;
 
+    int stage = 0;
+
     colorIO.set(255);
 }
 
 ofSnake::~ofSnake() {
+
+    std::cout << "snake dies" << std::endl;
 
 }
 
